@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+  color: white;
+}
+
+/* header */
+
+header h1 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* main */
+main {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+#to-do-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#to-do-form #task-title-input {
+  border: none;
+  border-radius: 0.2rem;
+  width: 25rem;
+  padding: 1rem;
+  height: 1.2rem;
+}
+.button-form {
+  border: none;
+  color: rgb(43, 41, 41);
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  background-color: rgba(99, 226, 99, 0.986);
+}
+.button-form:hover {
+  background-color: rgb(88, 136, 88);
+}
+ul {
+  list-style: none;
+}
+/* Lista */
+#to-do-list li {
+  justify-content: space-between;
+
+  border-radius: 1rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  display: flex;
+  color: black;
+  background-color: #f1f1f1;
+}
+
+#to-do-list input {
+  width: 2rem;
+}
+
+#to-do-list span {
+  overflow-wrap: break-word;
+  max-width: 50rem;
+  flex: 1;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 1rem;
+}
+
+#to-do-list button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  height: 2rem;
+  background-color: rgb(226, 53, 53);
+  color: rgb(255, 255, 255);
+}
+
+#to-do-list button:hover {
+  background-color: rgb(226, 16, 16);
+}
